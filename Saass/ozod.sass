@@ -1,0 +1,1360 @@
+
+.heat
+  display: flex
+  justify-content: space-between
+  height: 50px
+  width: 100%
+  padding: 0
+  top: 0
+  left: 0
+  align-items: center
+  background: #1a1a1a0a
+  &_a
+    display: flex
+    justify-content: space-between
+    width: 100%
+    height: 60px
+    align-items: center
+    h1
+      font-size: 20px
+
+    ol
+      display: flex
+      justify-content: space-evenly
+      width: 400px
+      align-items: center
+
+      li
+        list-style: none
+
+        a
+          text-decoration: none
+          color: #1a1a1a
+          cursor: pointer
+          font-size: 10px
+          padding: 4px
+
+        a:hover
+          background: #1a1a1a
+          color: white
+          border-radius: 12px
+
+    &_1
+      display: flex
+      justify-content: space-between
+      width: 125px
+      align-items: center
+
+      a
+        text-decoration: none
+        color: #1a1a1a
+        cursor: pointer
+        padding: 5px
+        font-size: 12px
+
+      a:hover
+        background: #1a1a1a
+        color: white
+        border-radius: 13px
+      img
+        height: 30px
+.mobil
+  display: none
+  flex-direction: column
+  justify-content: space-between
+  width: 100%
+  height: 100%
+  z-index: 1
+  background: white
+  position: absolute
+  left: 0
+  top: 0
+  &_active
+    display: flex
+    padding: 20px
+  &_a
+    display: flex
+    justify-content: space-between
+    a
+      font-size: xx-large
+      text-decoration: none
+      color: black
+      position: relative
+    a:after
+        width: 0
+        height: 2px
+        display: block
+        content: ''
+        background: black
+        transition: 0.4s width ease-in
+    &:hover a:after
+        width: 100%
+    img
+      width: 20px
+      height: 20px
+  &_b
+    display: flex
+    justify-content: space-between
+    width: 100%
+    height: 100%
+    &_1
+      display: flex
+      justify-content: space-between
+      width: 250px
+      height: 600px
+      ol
+        width: 250px
+        height: 400px
+        display: flex
+        flex-direction: column
+        justify-content: space-around
+        padding-left: 0
+      li
+        display: flex
+        justify-content: space-between
+        a
+          color: black
+          text-decoration: none
+        a:after
+          width: 0
+          height: 2px
+          display: block
+          content: ''
+          background: rgba(0, 0, 0, 0.63)
+          transition: 0.4s width ease-in
+        &:hover a:after
+          width: 120px
+          color: rgba(0, 0, 0, 0.84)
+        img
+          width: 35px
+          height: 25px
+          display: none
+    &_2
+      transition: 0.5s all ease
+      display: none
+      justify-content: center
+      width: 250px
+      height: 600px
+      &_active
+        display: flex
+      ul
+        width: 250px
+        height: 500px
+        display: flex
+        flex-direction: column
+        justify-content: space-around
+        padding-left: 0
+        align-items: flex-start
+
+      li
+        display: flex
+        justify-content: center
+        a
+          color: black
+          text-decoration: none
+          font-size: small
+        a:after
+          width: 0
+          height: 2px
+          display: block
+          content: ''
+          background: rgba(0, 0, 0, 0.63)
+          transition: 0.4s width ease-in
+        button
+          width: 65px
+          height: 20px
+          border-radius: 9px
+          background: #0d6efd
+          font-size: 12px
+          color: white
+          border: none
+          text-align: center
+        &:hover a:after
+          width: 120px
+          color: rgba(0, 0, 0, 0.84)
+    &_2:nth-child(3)
+      ul
+        width: 250px
+        height: 350px
+        display: flex
+        flex-direction: column
+        justify-content: space-around
+        padding-left: 0
+        align-items: flex-start
+    &_2:nth-child(4)
+      ul
+        width: 250px
+        height: 250px
+        display: flex
+        flex-direction: column
+        justify-content: space-around
+        padding-left: 0
+        align-items: flex-start
+    &_2:nth-child(5)
+      ul
+        width: 250px
+        height: 250px
+        display: flex
+        flex-direction: column
+        justify-content: space-around
+        padding-left: 0
+        align-items: flex-start
+    &_2:nth-child(6)
+      ul
+        width: 250px
+        height: 250px
+        display: flex
+        flex-direction: column
+        justify-content: space-around
+        padding-left: 0
+        align-items: flex-start
+    &_2:nth-child(7)
+      ul
+        width: 250px
+        height: 250px
+        display: flex
+        flex-direction: column
+        justify-content: space-around
+        padding-left: 0
+        align-items: flex-start
+    &_2:nth-child(8)
+      ul
+        width: 250px
+        height: 500px
+        display: flex
+        flex-direction: column
+        justify-content: space-around
+        padding-left: 0
+        align-items: flex-start
+    &_2:nth-child(9)
+      ul
+        width: 250px
+        height: 500px
+        display: flex
+        flex-direction: column
+        justify-content: center
+        padding-left: 0
+        align-items: flex-start
+    &_3
+      display: flex
+      justify-content: space-between
+      width: 350px
+      height: 350px
+      hr
+        width: 1px
+        height: 300px
+        background: #5c5b5b
+      &_b
+        display: flex
+        justify-content: space-between
+        flex-direction: column
+        align-items: center
+        width: 300px
+        height: 300px
+        overflow: hidden
+        &_3
+          display: flex
+          justify-content: center
+          align-items: center
+          width: 250px
+          height: 250px
+          overflow: hidden
+
+          img
+            width: 100%
+            height: 100%
+            border-radius: 20px
+            transition: 0.5s ease
+            object-fit: cover
+          img:hover
+            object-fit: cover
+            cursor: pointer
+            transform: scale(1.1)
+
+
+        h1
+          color: #2a0d10
+          font-size: 20px
+        a
+          color: black
+          text-decoration: none
+          font-size: small
+        a:after
+          width: 0
+          height: 2px
+          display: block
+          content: ''
+          background: rgba(0, 0, 0, 0.63)
+          transition: 0.4s width ease-in
+        &:hover a:after
+          width: 120px
+          color: black
+.search
+  display: none
+  justify-content: space-evenly
+  flex-direction: column
+  height: 100vh
+  width: 100vw
+  position: fixed
+  z-index: 3
+  align-items: center
+  background: rgba(5, 5, 5, 0.8)
+  left: 0
+  top: 0
+  &_active
+    display: flex
+  .search_00
+    width: 30px
+    height: 30px
+    display: flex
+    justify-content: end
+    left: 0
+  b
+    font-size: 45px
+    color: white
+  &_a
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    &_1
+      display: flex
+      justify-content: space-around
+      background: white
+      align-items: center
+      align-self: center
+      border-radius: 20px
+      width: 500px
+      height: 50px
+      img
+        width: 30px
+        height: 30px
+      input
+        width: 340px
+        height: 30px
+        color: black
+        border: none
+    &_2
+      display: flex
+      justify-content: center
+      border-radius: 20px
+      background: white
+      width: 500px
+      height: 250px
+      flex-direction: column
+      h1
+        margin-left: 25px
+      p
+        font-size: 10px
+        margin-left: 25px
+.galiriya
+  display: flex
+  justify-content: center
+  flex-direction: column
+  align-items: center
+  width: 100%
+  height: 500px
+  margin-top: 50px
+  position: relative
+  left: 0
+  top: 0
+  overflow: hidden
+  &_a
+    display: none
+    justify-content: center
+    flex-direction: column
+    align-items: center
+    background: url("../galeriya/Galaxy-S22-series_design-story_main1.jpg")
+    background-size: cover
+    width: 100%
+    height: 550px
+    &_active
+      display: flex !important
+      opacity: 1 !important
+    &_1
+      display: flex
+      justify-content: center
+      flex-direction: column
+      width: 300px
+      height: 250px
+      a
+        text-decoration: none
+        color: #1a1a1a
+        cursor: pointer
+        padding: 5px
+        font-size: 12px
+        width: 100px
+        background: #494646
+        border-radius: 13px
+
+      a:hover
+        background: #1a1a1a
+        color: white
+        border-radius: 13px
+  &_b
+    display: flex
+    justify-content: space-between
+    flex-direction: column
+    align-items: center
+    background: url("../galeriya/2021-neo-qled-tv-f00-highlights-kv-mo_v2.jpg")
+    background-size: cover
+    width: 100%
+    height: 550px
+    &_1
+      display: flex
+      justify-content: center
+      flex-direction: column
+      width: 300px
+      height: 250px
+      a
+        text-decoration: none
+        color: #f3f0f0
+        cursor: pointer
+        padding: 5px
+        font-size: 12px
+        width: 100px
+        background: #494646
+        border-radius: 13px
+      h1
+        color: white
+      p
+        color: white
+      a:hover
+        background: #f5eeee
+        color: #0a0a0a
+        border-radius: 13px
+  &_c
+    display: flex
+    justify-content: space-between
+    flex-direction: column
+    align-items: flex-end
+    background: url("../galeriya/23fwegwgv.jpg")
+    background-size: cover
+    width: 100%
+    height: 550px
+    &_1
+      display: flex
+      justify-content: center
+      flex-direction: column
+      width: 300px
+      height: 250px
+      a
+        text-decoration: none
+        color: #f3f0f0
+        cursor: pointer
+        padding: 5px
+        font-size: 12px
+        width: 100px
+        background: #494646
+        border-radius: 13px
+      h1
+        color: white
+      p
+        color: white
+      a:hover
+        background: #f5eeee
+        color: #0a0a0a
+        border-radius: 13px
+  &_d
+    display: flex
+    justify-content: center
+    flex-direction: column
+    background: url("../galeriya/15901-814ezgif.com-gif-maker-2.gif")
+    background-size: cover
+    width: 100%
+    height: 550px
+    &_1
+      display: flex
+      justify-content: center
+      flex-direction: column
+      width: 300px
+      height: 250px
+      margin-left: 50px
+      a
+        text-decoration: none
+        color: #111111
+        cursor: pointer
+        padding: 5px
+        font-size: 12px
+        width: 100px
+        background: #494646
+        border-radius: 13px
+      h1
+        color: #0e0d0d
+      p
+        color: #0a0a0a
+      a:hover
+        background: #0a0a0a
+        color: #eee8e8
+        border-radius: 13px
+
+.slide
+  position: absolute
+  top: 0
+  left: 0
+  opacity: 0
+  display: none
+.img_right
+  width: 40px
+  height: 40px
+  position: absolute
+  left: 1128px
+  z-index: 1
+  top: 340px
+  background: white
+  border-radius: 50%
+  &:hover
+    border-radius: 50%
+    box-shadow: 0 0 20px white
+
+.img_left
+  width: 40px
+  height: 40px
+  position: absolute
+  z-index: 2
+  align-self: center
+  top: 340px
+  background: white
+  border-radius: 50%
+  &:hover
+    border-radius: 50%
+    box-shadow: 0 0 20px white
+.shops
+  display: flex
+  justify-content: space-around
+  flex-direction: column
+  width: 100%
+  height: 100%
+  align-items: center
+  &_a
+    display: flex
+    justify-content: space-around
+    flex-direction: column
+    align-items: center
+    h1
+      font-size: 35px
+    &_1
+      display: flex
+      justify-content: space-between
+      align-items: center
+      width: 900px
+      b
+        font-size: 15px
+        cursor: pointer
+        &:after
+          width: 0
+          height: 2px
+          display: block
+          content: ''
+          background: rgba(0, 0, 0, 0.63)
+          transition: 0.4s width ease-in
+    &_2
+      display: flex
+      justify-content: center
+      align-items: center
+      flex-direction: column
+      &_active
+        display: flex !important
+        opacity: 1 !important
+      &_a
+        display: none
+        justify-content: space-evenly
+        flex-direction: column
+        align-items: center
+        width: 700px
+        height: 500px
+        &_active
+          display: flex !important
+          opacity: 1 !important
+        img
+          width: 600px
+          height: 300px
+        &_2
+          display: flex
+          justify-content: center
+          flex-direction: column
+          align-items: center
+          width: 500px
+          height: 120px
+      a
+        text-decoration: none
+        color: #0a0a0a
+        cursor: pointer
+        padding: 5px
+        font-size: 12px
+        width: 100px
+        background: #999595
+        border-radius: 13px
+      a:hover
+        background: #0a0a0a
+        color: #eee8e8
+        border-radius: 13px
+
+
+.tv_aoudio
+  display: flex
+  justify-content: space-between
+  flex-direction: column
+  align-items: center
+  width: 100%
+  height: 600px
+  top: 0
+  left: 0
+  position: relative
+  &_a
+    display: flex
+    justify-content: center
+    flex-direction: column
+    width: 900px
+    height: 150px
+    align-items: center
+    z-index: 1
+    h1
+      b
+        color: white
+        font-size: 30px
+    &_1
+      display: flex
+      justify-content: space-around
+      align-items: center
+      width: 800px
+      button
+        border: 0
+        color: white
+        background: 0
+        cursor: pointer
+      button:hover
+        background: rgba(10, 10, 10, 0.56)
+        color: #eee8e8
+        border-radius: 13px
+        align-items: center
+      &:after
+        width: 100% !important
+        color: black !important
+        background: red !important
+  &_b
+    display: flex
+    justify-content: end
+    flex-direction: column
+    width: 100%
+    height: 550px
+    align-items: center
+    align-self: end
+    background: url("../galeriya/The-Freestyle-Lifestyle2_large.jpg")
+    background-size: cover
+    position: absolute
+    left: 0
+    top: 0
+    &_active
+          display: flex !important
+          opacity: 1 !important
+    &_1
+      display: flex
+      justify-content: end
+      flex-direction: column
+      align-items: center
+      width: 700px
+      height: 300px
+      h1
+        color: white
+        font-size: 30px
+      p
+        color: white
+      &_b
+        display: flex
+        justify-content: space-around
+        width: 300px
+        height: 50px
+        a
+          text-decoration: none
+          color: #faf6f6
+          position: relative
+          font-size: 14px
+        a:after
+            width: 0
+            height: 2px
+            display: block
+            content: ''
+            background: #f6f1f1
+            transition: 0.4s width ease-in
+        &:hover a:after
+            width: 100%
+        button
+          border: 0
+          color: #0a0a0a
+          background: 0
+          height: 30px
+          cursor: pointer
+          background: white
+          border-radius: 13px
+          font-size: 15px
+        button:hover
+          background: rgba(10, 10, 10, 0.72)
+          color: #eee8e8
+          border-radius: 13px
+          align-items: center
+  &_c
+    display: none
+    justify-content: end
+    flex-direction: column
+    width: 100%
+    height: 550px
+    align-items: center
+    align-self: end
+    background: url("../galeriya/583c180143.jpg")
+    background-size: cover
+    position: absolute
+    left: 0
+    top: 0
+    &_1
+      display: flex
+      justify-content: end
+      flex-direction: column
+      align-items: center
+      width: 700px
+      height: 300px
+      h1
+        color: white
+        font-size: 30px
+      p
+        color: white
+      &_c
+        display: flex
+        justify-content: space-around
+        width: 300px
+        height: 50px
+        a
+          text-decoration: none
+          color: #faf6f6
+          position: relative
+          font-size: 14px
+        a:after
+            width: 0
+            height: 2px
+            display: block
+            content: ''
+            background: #f6f1f1
+            transition: 0.4s width ease-in
+        &:hover a:after
+            width: 100%
+        button
+          border: 0
+          color: #0a0a0a
+          background: 0
+          height: 30px
+          cursor: pointer
+          background: white
+          border-radius: 13px
+          font-size: 15px
+        button:hover
+          background: rgba(10, 10, 10, 0.72)
+          color: #eee8e8
+          border-radius: 13px
+          align-items: center
+  &_d
+    display: none
+    justify-content: end
+    flex-direction: column
+    width: 100%
+    height: 550px
+    align-items: center
+    align-self: end
+    background: url("../galeriya/bhBjT2V4jdPfepdvP7VFQk.jpg")
+    background-size: cover
+    position: absolute
+    left: 0
+    top: 0
+    &_1
+      display: flex
+      justify-content: end
+      flex-direction: column
+      align-items: center
+      width: 700px
+      height: 300px
+      h1
+        color: white
+        font-size: 30px
+      p
+        color: #131313
+      &_d
+        display: flex
+        justify-content: space-around
+        width: 300px
+        height: 50px
+        a
+          text-decoration: none
+          color: #0a0a0a
+          position: relative
+          font-size: 14px
+        a:after
+            width: 0
+            height: 2px
+            display: block
+            content: ''
+            background: #0e0d0d
+            transition: 0.4s width ease-in
+        &:hover a:after
+            width: 100%
+        button
+          border: 0
+          color: #0a0a0a
+          background: 0
+          height: 30px
+          cursor: pointer
+          background: white
+          border-radius: 13px
+          font-size: 15px
+        button:hover
+          background: rgba(10, 10, 10, 0.72)
+          color: #eee8e8
+          border-radius: 13px
+          align-items: center
+  &_e
+    display: none
+    justify-content: end
+    flex-direction: column
+    width: 100%
+    height: 550px
+    align-items: center
+    align-self: end
+    background: url("../galeriya/Neo-QLED-4K.jpg")
+    background-size: cover
+    position: absolute
+    left: 0
+    top: 0
+    &_1
+      display: flex
+      justify-content: end
+      flex-direction: column
+      align-items: center
+      width: 700px
+      height: 300px
+      h1
+        color: #030303
+        font-size: 30px
+      p
+        color: #faf6f6
+      &_e
+        display: flex
+        justify-content: space-around
+        width: 300px
+        height: 50px
+        a
+          text-decoration: none
+          color: #efe9e9
+          position: relative
+          font-size: 14px
+        a:after
+            width: 0
+            height: 2px
+            display: block
+            content: ''
+            background: #0e0d0d
+            transition: 0.4s width ease-in
+        &:hover a:after
+            width: 100%
+        button
+          border: 0
+          color: #0a0a0a
+          background: 0
+          height: 30px
+          cursor: pointer
+          background: white
+          border-radius: 13px
+          font-size: 15px
+        button:hover
+          background: rgba(10, 10, 10, 0.72)
+          color: #eee8e8
+          border-radius: 13px
+          align-items: center
+  &_f
+    display: none
+    justify-content: end
+    flex-direction: column
+    width: 100%
+    height: 550px
+    align-items: center
+    align-self: end
+    background: url("../galeriya/au-feature---409720439__24267.1621557021_large.jpg")
+    background-size: cover
+    position: absolute
+    left: 0
+    top: 0
+    &_1
+      display: flex
+      justify-content: end
+      flex-direction: column
+      align-items: center
+      width: 700px
+      height: 300px
+      h1
+        color: #0e0e0e
+        font-size: 30px
+      p
+        color: #faf6f6
+      &_f
+        display: flex
+        justify-content: space-around
+        width: 300px
+        height: 50px
+        a
+          text-decoration: none
+          color: #efe9e9
+          position: relative
+          font-size: 14px
+        a:after
+            width: 0
+            height: 2px
+            display: block
+            content: ''
+            background: #0e0d0d
+            transition: 0.4s width ease-in
+        &:hover a:after
+            width: 100%
+        button
+          border: 0
+          color: #0a0a0a
+          background: 0
+          height: 30px
+          cursor: pointer
+          background: white
+          border-radius: 13px
+          font-size: 15px
+        button:hover
+          background: rgba(10, 10, 10, 0.72)
+          color: #eee8e8
+          border-radius: 13px
+          align-items: center
+.tv_all
+  position: absolute
+  top: 0
+  left: 0
+  opacity: 0
+  display: none
+
+.popular
+  display: flex
+  justify-content: center
+  width: 100%
+  height: 700px
+  top: 0
+  left: 0
+  padding: 0
+  margin: 0
+  &_goods
+    display: flex
+    justify-content: space-between
+    flex-direction: column
+    align-items: center
+    width: 100%
+    height: 550px
+    top: 0
+    &_a
+      display: flex
+      justify-content: space-around
+      flex-direction: column
+      align-items: center
+      width: 350px
+      height: 120px
+      h1
+        color: black
+        font-size: 25px
+      &_1
+        display: flex
+        align-items: center
+        justify-content: space-around
+        width: 600px
+        height: 100px
+      button
+        border: 0
+        color: #0c0c0c
+        background: 0
+        cursor: pointer
+      button:hover
+        background: rgba(10, 10, 10, 0.56)
+        color: #eee8e8
+        border-radius: 13px
+        align-items: center
+    &_b
+      display: flex
+      justify-content: space-around
+      align-items: center
+      width: 100%
+      height: 550px
+      &_1
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        width: 500px
+        height: 500px
+        background-color: rgba(217, 216, 219, 0.54)
+        border-radius: 15px
+        overflow: hidden
+        p
+          font-size: 15px
+        &_b
+          display: flex
+          justify-content: center
+          align-items: center
+          width: 330px
+          height: 330px
+          img
+            width: 300px
+            height: 300px
+            border-radius: 20px
+            transition: 0.5s ease
+            object-fit: cover
+          img:hover
+            object-fit: cover
+            cursor: pointer
+            transform: scale(1.1)
+        p
+          font-size: 10px
+          width: 30px
+          height: 15px
+          background: aqua
+          text-align: end
+          display: flex
+          margin-left: -300px
+          justify-content: center
+          border-radius: 6px
+          cursor: pointer
+        h1
+          font-size: 25px
+        a
+          color: #faf6f6
+          text-decoration: none
+          font-size: 15px
+          background-color: #070707
+          border-radius: 10px
+          width: 120px
+          height: 25px
+          text-align: center
+        a:hover
+          color: black
+          background: rgb(248, 244, 244)
+          transition: 0.4s width ease-in
+          border-radius: 10px
+
+
+      &_2
+        display: flex
+        justify-content: space-around
+        flex-direction: column
+        flex-wrap: wrap
+        width: 500px
+        height: 500px
+        &_b
+          display: flex
+          justify-content: center
+          flex-direction: column
+          align-items: center
+          width: 230px
+          height: 230px
+          border-radius: 15px
+          background-color: rgba(217, 216, 219, 0.54)
+          p
+            font-size: 10px
+            width: 30px
+            height: 15px
+            background: aqua
+            text-align: end
+            display: flex
+            margin-left: -150px
+            justify-content: center
+            border-radius: 6px
+            cursor: pointer
+          &_1
+            display: flex
+            justify-content: center
+            align-items: center
+            width: 100px
+            height: 150px
+            img
+              width: 120px
+              height: 120px
+              border-radius: 20px
+              transition: 0.5s ease
+              object-fit: cover
+            img:hover
+              object-fit: cover
+              cursor: pointer
+              transform: scale(1.1)
+          h1
+            font-size: 10px
+          a
+            color: #faf6f6
+            text-decoration: none
+            font-size: 10px
+            background-color: #070707
+            border-radius: 10px
+            width: 80px
+            height: 15px
+            text-align: center
+          a:hover
+            color: black
+            background: rgb(248, 244, 244)
+            transition: 0.4s width ease-in
+            border-radius: 10px
+
+.add
+  display: flex
+  justify-content: space-around
+  flex-direction: column
+  align-items: center
+  height: 800px
+  width: 100%
+  b
+    color: black
+    width: 100%
+    height: 100px
+    font-size: 30px
+  &_injection
+    display: flex
+    justify-content: space-around
+    width: 100%
+    height: 700px
+    &_a
+      display: flex
+      justify-content: center
+      width: 500px
+      height: 650px
+      &_1
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 500px
+        height: 650px
+        img
+          width: 550px
+          height: 550px
+          border-radius: 15px
+          transition: 0.5s ease
+          object-fit: cover
+        img:hover
+          object-fit: cover
+          cursor: pointer
+          transform: scale(1.1)
+    &_b
+      display: flex
+      justify-content: space-between
+      flex-direction: column
+      align-items: center
+      width: 500px
+      height: 650px
+      &_0
+        display: none
+        width: 100%
+        height: 2px
+        color: black
+        background-color: black
+        &_active
+          display: flex
+      &_1
+        display: flex
+        justify-content: center
+        width: 500px
+        height: 120px
+        &_a
+          width: 60px
+          height: 60px
+          align-items: end
+          h1
+            color: red
+        &_b
+          display: flex
+          width: 500px
+          flex-direction: column
+
+          &_2
+            display: flex
+
+            h1
+              font-size: 15px
+          &_3
+            display: none
+            flex-direction: column
+            justify-content: center
+            width: 380px
+            height: 120px
+            &_active
+              display: flex
+            h1
+              font-size: 18px
+            p
+              font-size: 12px
+            a
+              font-size: 13px
+              color: red
+            hr
+              width: 100%
+              height: 1px
+              color: navajowhite
+              background-color: #454141
+      &_1:nth-child(1)
+        height: 190px
+        display: flex
+        justify-content: space-between
+
+.google_seach
+  width: 100%
+  height: 950px
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  &_0
+    font-size: 35px
+    text-shadow: 1px 2px rgba(75, 7, 7, 0.51)
+  &_1
+    width: 400px
+    height: 40px
+    display: flex
+    align-items: center
+    justify-content: space-between
+    border: solid black 2px
+    background-color: rgba(219, 208, 208, 0.32)
+    border-radius: 10px
+    box-shadow: 4px 3px 0 #1b1e21
+    img
+      width: 35px
+      height: 30px
+    &_input
+      border: none
+      width: 350px
+      height: 20px
+  &_2
+    width: 500px
+    height: 70px
+    display: flex
+    align-items: center
+    justify-content: space-around
+    flex-wrap: wrap
+    button
+      width: 105px
+      height: 28px
+      border: 1px solid #312d2d
+      border-radius: 10px
+      display: flex
+      align-items: center
+      justify-content: center
+      box-shadow: 2px 3px 0 black
+      a
+        font-size: 13px
+        text-decoration: none
+        color: black
+  &_3
+    width: 1000px
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    p
+      font-size: 13px
+  &_4
+    width: 100%
+    height: 350px
+    display: flex
+    align-items: center
+    justify-content: center
+
+    &_a
+      width: 25%
+      height: 330px
+      align-items: center
+      display: flex
+      justify-content: normal
+      flex-direction: column
+      border: solid 1px rgba(61, 59, 59, 0.43)
+      border-left: none
+
+      h1
+          font-size: 15px
+      ul
+        li
+          overflow: hidden
+          a
+            color: black
+            font-size: 13px
+    &_a:nth-child(4)
+         border-right: none
+  &_5
+    width: 100%
+    height: 160px
+    display: flex
+    flex-direction: column
+    justify-content: center
+    &_a
+      width: 100%
+      height: 90Px
+      display: flex
+      align-items: center
+      p
+        font-size: 14px
+        h1
+          font-size: 13px
+        a
+          text-decoration: none
+          color: black
+    hr
+      width: 100%
+      height: 1px
+      color: #312d2d
+    &_b
+      width: 100%
+      height: 70px
+      display: flex
+      align-items: center
+      justify-content: space-between
+      &_1
+        width: 500px
+        height: 70px
+        display: flex
+        align-items: center
+        justify-content: space-around
+        h1
+          font-size: 10px
+          a
+            color: black
+        hr
+          width: 1px
+          height: 25px
+          color:  #312d2d
+        &_a
+          width: 369px
+          height: 70px
+          align-items: center
+          display: flex
+          justify-content: space-around
+          p
+            font-size: 10px
+            a
+              color: black
+      &_2
+        width: 250px
+        height: 70px
+        display: flex
+        align-items: center
+        justify-content: space-around
+        p
+          font-size: 13px
+        img
+          width: 30px
+          height: 25px
+
+
+
+
+.get_lost
+  display: flex
+  opacity: 0
+  align-items: center
+  justify-content: center
+  &_active
+    opacity: 1 !important
+
+
+.active_hover
+  &:after
+    width: 100% !important
+    color: black !important
